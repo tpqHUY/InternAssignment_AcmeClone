@@ -15,11 +15,10 @@ Minimal full-stack starter with:
 * [Tech Stack](#tech-stack)
 * [Monorepo Layout](#monorepo-layout)
 * [Prerequisites](#prerequisites)
-* [Quick Start (Docker or Local)](#quick-start-docker-or-local)
+* [Quick Start (Local)](#quick-start)
 * [Backend Setup (NestJS)](#backend-setup-nestjs)
 * [Frontend Setup (React + Vite)](#frontend-setup-react--vite)
 * [Run End-to-End](#run-end-to-end)
-* [API Cheatsheet](#api-cheatsheet)
 * [Assumptions / Trade-offs](#assumptions--trade-offs)
 * [Screenshots / Demo](#screenshots--demo)
 * [Development Notes](#development-notes)
@@ -73,7 +72,8 @@ Minimal full-stack starter with:
 
 ---
 
-## Quick Start (Local PostGre)
+## Quick Start 
+(Local PostGre)
 
 * Create a database (e.g. `nest`)
 * Update the URL for your host/port/user/password
