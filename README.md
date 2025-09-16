@@ -5,6 +5,8 @@ Minimal full-stack starter with:
 * **Backend**: NestJS, Prisma, PostgreSQL, JWT auth (access & refresh)
 * **Frontend**: React + Vite, Tailwind CSS, shadcn/ui, React Router, lucide-react
 * **Features**: Email/password auth, protected `/users/me`, dashboard with collapsible sidebar, range toolbar, and placeholder lead/contacts cards.
+---
+## **Demo ([VIDEO](https://bit.ly/42v75i7)):**
 
 ---
 
@@ -22,6 +24,7 @@ Minimal full-stack starter with:
 * [Development Notes](#development-notes)
 
 ---
+
 
 ## Tech Stack
 
@@ -201,9 +204,6 @@ npm run dev
   ![Dashboard (collapsed)](docs/screenshots/dashboard-collapsed.png)
 * Auth (Sign in / Sign up)
   ![Sign In](docs/screenshots/signin.png)
-
-**Demo (VIDEO):**
-`https://your-demo-url.example.com`
 
 ---
 
