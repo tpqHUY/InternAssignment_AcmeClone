@@ -5,6 +5,8 @@ Minimal full-stack starter with:
 * **Backend**: NestJS, Prisma, PostgreSQL, JWT auth (access & refresh)
 * **Frontend**: React + Vite, Tailwind CSS, shadcn/ui, React Router, lucide-react
 * **Features**: Email/password auth, protected `/users/me`, dashboard with collapsible sidebar, range toolbar, and placeholder lead/contacts cards.
+---
+## **Demo ([VIDEO](https://bit.ly/42v75i7)):**
 
 ---
 
@@ -22,6 +24,7 @@ Minimal full-stack starter with:
 * [Development Notes](#development-notes)
 
 ---
+
 
 ## Tech Stack
 
@@ -56,8 +59,6 @@ Minimal full-stack starter with:
 └─ docs/
    └─ screenshots/    # put images used in README here
 ```
-
-> If you keep backend & frontend in separate repos, the instructions still apply—just run them in each project root.
 
 ---
 
@@ -197,38 +198,10 @@ npm run dev
 
 ## Screenshots / Demo
 
-> Put images in `docs/screenshots/` and link them here.
-
 * Dashboard (expanded sidebar)
-  `![Dashboard](docs/screenshots/dashboard-expanded.png)`
-
+  ![Dashboard](docs/screenshots/dashboard-expanded.png)
 * Dashboard (collapsed sidebar)
-  `![Dashboard (collapsed)](docs/screenshots/dashboard-collapsed.png)`
-
+  ![Dashboard (collapsed)](docs/screenshots/dashboard-collapsed.png)
 * Auth (Sign in / Sign up)
-  `![Sign In](docs/screenshots/signin.png)`
+  ![Sign In](docs/screenshots/signin.png)
 
-**Demo (if deployed):**
-`https://your-demo-url.example.com`
-*(Replace with your live link if available.)*
-
----
-
-## Development Notes
-
-* **Coding standards**: Prettier + ESLint recommended.
-* **CORS**: Enable in Nest if front/back on different ports.
-* **.env tips**: Never commit secrets; use `.env.example`.
-* **Build**:
-
-  * Server: `pnpm build` → `dist/`
-  * Web: `pnpm build` → `dist/` (static)
-* **Deployment**:
-
-  * Backend: any Node host / Docker.
-  * Frontend: static hosting (Vercel/Netlify/S3 + CDN).
-  * Set `VITE_API_URL` to your backend URL.
-
----
-
-If you want me to tailor the README to your exact repo structure (names, scripts, any special middleware), just paste the GitHub link and I’ll align the commands/paths and add a `.env.example` plus final screenshots section.
