@@ -57,8 +57,6 @@ Minimal full-stack starter with:
    └─ screenshots/    # put images used in README here
 ```
 
-> If you keep backend & frontend in separate repos, the instructions still apply—just run them in each project root.
-
 ---
 
 ## Prerequisites
@@ -204,9 +202,8 @@ npm run dev
 * Auth (Sign in / Sign up)
   ![Sign In](docs/screenshots/signin.png)
 
-**Demo (if deployed):**
+**Demo (VIDEO):**
 `https://your-demo-url.example.com`
-*(Replace with your live link if available.)*
 
 ---
 
