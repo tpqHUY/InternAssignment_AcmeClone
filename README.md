@@ -197,16 +197,12 @@ npm run dev
 
 ## Screenshots / Demo
 
-> Put images in `docs/screenshots/` and link them here.
-
 * Dashboard (expanded sidebar)
-  `![Dashboard](docs/screenshots/dashboard-expanded.png)`
-
+  ![Dashboard](docs/screenshots/dashboard-expanded.png)
 * Dashboard (collapsed sidebar)
-  `![Dashboard (collapsed)](docs/screenshots/dashboard-collapsed.png)`
-
+  ![Dashboard (collapsed)](docs/screenshots/dashboard-collapsed.png)
 * Auth (Sign in / Sign up)
-  `![Sign In](docs/screenshots/signin.png)`
+  ![Sign In](docs/screenshots/signin.png)
 
 **Demo (if deployed):**
 `https://your-demo-url.example.com`
