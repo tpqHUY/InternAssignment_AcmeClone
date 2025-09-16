@@ -1,7 +1,3 @@
-Awesome — here’s a clean, production-ready **README.md** you can drop into your repo. I wrote it to cover both the NestJS backend and the React (Vite) frontend you’ve been building, with clear setup steps, assumptions/trade-offs, and slots for screenshots / demo.
-
----
-
 # DevSamurai – Full-Stack App (NestJS + React)
 
 Minimal full-stack starter with:
@@ -166,34 +162,6 @@ pnpm dev
 4. Visit **[http://localhost:5173](http://localhost:5173)**
 
    * Sign up → Sign in → Navigate to Dashboard
-
----
-
-## API Cheatsheet
-
-**Auth**
-
-* `POST /auth/signup` → `{ email, password, name? }`
-* `POST /auth/signin` → `{ email, password }` → `{ access_token, refresh_token }`
-* `POST /auth/refresh` → `{ refresh_token }`
-* `GET /users/me` (Bearer access\_token) → current user
-
-**Quick test**
-
-```bash
-# Signup
-curl -s -X POST http://localhost:3000/auth/signup \
-  -H "Content-Type: application/json" \
-  -d '{"email":"test@example.com","password":"Secret123!","name":"Huy"}'
-
-# Signin
-ACCESS=$(curl -s -X POST http://localhost:3000/auth/signin \
- -H "Content-Type: application/json" \
- -d '{"email":"test@example.com","password":"Secret123!"}' | jq -r .access_token)
-
-# Me
-curl -s http://localhost:3000/users/me -H "Authorization: Bearer $ACCESS"
-```
 
 ---
 
