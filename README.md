@@ -46,11 +46,11 @@ Minimal full-stack starter with:
 
 ```
 .
-├─ server/            # NestJS + Prisma backend
+├─ BE_acme/            # NestJS + Prisma backend
 │  ├─ src/
 │  ├─ prisma/         # schema.prisma, migrations
 │  └─ .env
-├─ web/               # React + Vite frontend
+├─ FE_acme/               # React + Vite frontend
 │  ├─ src/
 │  └─ .env
 └─ docs/
@@ -154,9 +154,9 @@ pnpm dev
 
 ## Run End-to-End
 
-1. Start **Postgres** (Docker or local)
-2. Start **server** (`pnpm start:dev` in `server/`)
-3. Start **web** (`pnpm dev` in `web/`)
+1. Start **Postgres** (local)
+2. Start **server** (`npm run start:dev` in `BE_acme/`)
+3. Start **web** (`npm run dev` in `FE_acme/`)
 4. Visit **[http://localhost:5173](http://localhost:5173)**
 
    * Sign up → Sign in → Navigate to Dashboard
