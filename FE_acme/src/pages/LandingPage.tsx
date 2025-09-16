@@ -159,34 +159,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Features */}
-      <section id="features" className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-16">
-          <div className="mx-auto mb-10 max-w-3xl text-center">
-            <h2 className="text-3xl font-semibold tracking-tight">
-              Everything you need, nothing you don’t
-            </h2>
-            <p className="mt-3 text-neutral-600">
-              Production-ready primitives with minimal styling and sensible
-              defaults.
-            </p>
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {features.map((f) => (
-              <Card key={f.title} className="hover:shadow-sm">
-                <CardHeader>
-                  <div className="mb-3 inline-flex rounded-md bg-neutral-900/5 p-2">
-                    <f.icon className="h-5 w-5 text-neutral-900" />
-                  </div>
-                  <CardTitle className="text-base">{f.title}</CardTitle>
-                  <CardDescription>{f.description}</CardDescription>
-                </CardHeader>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Preview / Screens */}
       <section id="preview" className="bg-neutral-50">
@@ -200,7 +172,7 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-6 md:flex-row md:gap-4">
+          <div className="mx-auto max-w-5xl space-y-8">
             <Card className="overflow-hidden">
               <CardHeader>
                 <CardTitle className="text-base">Auth Screens</CardTitle>
