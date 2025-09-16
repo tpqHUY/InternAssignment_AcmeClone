@@ -94,7 +94,7 @@ Create `server/.env`:
 
 ```env
 # Prisma / Postgres
-DATABASE_URL="postgresql://postgres:123@localhost:5434/nest?schema=public"
+DATABASE_URL="postgresql://postgres:123@localhost:5432/nest?schema=public"
 
 # JWT secrets (use long, random strings)
 JWT_SECRET=super-secret-key-minimum-32-characters-long
