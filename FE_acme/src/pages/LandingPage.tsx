@@ -200,7 +200,7 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="flex flex-col gap-6 md:flex-row md:gap-4">
             <Card className="overflow-hidden">
               <CardHeader>
                 <CardTitle className="text-base">Auth Screens</CardTitle>
@@ -210,7 +210,7 @@ export default function LandingPage() {
                 {/* Replace src with your real screenshots if available */}
                 <div className="aspect-[16/9] w-full overflow-hidden rounded-md border">
                   <img
-                    src="/screens/signin.png"
+                    src="/signin.png"
                     alt="Auth preview"
                     className="h-full w-full object-cover"
                     onError={(e) => {
@@ -236,7 +236,7 @@ export default function LandingPage() {
               <CardContent>
                 <div className="aspect-[16/9] w-full overflow-hidden rounded-md border">
                   <img
-                    src="/screens/dashboard-expanded.png"
+                    src="/dashboard-expanded.png"
                     alt="Dashboard preview"
                     className="h-full w-full object-cover"
                     onError={(e) => {
