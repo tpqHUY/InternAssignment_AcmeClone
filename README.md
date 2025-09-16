@@ -6,8 +6,6 @@ Minimal full-stack starter with:
 * **Frontend**: React + Vite, Tailwind CSS, shadcn/ui, React Router, lucide-react
 * **Features**: Email/password auth, protected `/users/me`, dashboard with collapsible sidebar, range toolbar, and placeholder lead/contacts cards.
 
-> These pages are meant for reference in terms of **layout**, **behavior**, and **minimal styling**.
-
 ---
 
 ## Table of Contents
