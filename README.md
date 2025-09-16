@@ -64,7 +64,7 @@ Minimal full-stack starter with:
 ## Prerequisites
 
 * **Node.js** ≥ 18 (LTS recommended)
-* **pnpm** or **npm** (examples use `pnpm`)
+* **pnpm** or **npm** (examples use `npm`)
 * **PostgreSQL** ≥ 13 (local or via Docker)
 * **OpenSSL** (optional, to generate secrets)
 
@@ -111,15 +111,15 @@ PORT=3000
 2. **Install & Migrate**
 
 ```bash
-pnpm install        # or npm i
-pnpm prisma:generate  # npx prisma generate
-pnpm prisma:migrate   # npx prisma migrate dev
+npm install        # or npm i
+npm prisma:generate  # npx prisma generate
+npm prisma:migrate   # npx prisma migrate dev
 ```
 
 3. **Run**
 
 ```bash
-pnpm start:dev
+npm run start:dev
 # Nest application successfully started
 ```
 
@@ -139,8 +139,8 @@ VITE_API_URL=http://localhost:3000
 2. **Install & Run**
 
 ```bash
-pnpm install        # or npm i
-pnpm dev
+npm install        # or npm i
+npm run dev
 # Vite dev server listening at http://localhost:5173
 ```
 
