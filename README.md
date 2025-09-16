@@ -86,11 +86,11 @@ postgresql://<user>:<password>@localhost:<port>/<db>?schema=public
 
 ## Backend Setup (NestJS)
 
-From `server/`:
+From `BE_acme/`:
 
 1. **Env file**
 
-Create `server/.env`:
+Create `BE_acme/.env`:
 
 ```env
 # Prisma / Postgres
@@ -129,10 +129,10 @@ pnpm start:dev
 
 ## Frontend Setup (React + Vite)
 
-From `web/`:
+From `FE_acme/`:
 
 1. **Env file**
-   Create `web/.env` (or `.env.local`):
+   Create `FE_acme/.env` (or `.env.local`):
 
 ```env
 VITE_API_URL=http://localhost:3000
