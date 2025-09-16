@@ -205,23 +205,3 @@ npm run dev
 * Auth (Sign in / Sign up)
   ![Sign In](docs/screenshots/signin.png)
 
----
-
-## Development Notes
-
-* **Coding standards**: Prettier + ESLint recommended.
-* **CORS**: Enable in Nest if front/back on different ports.
-* **.env tips**: Never commit secrets; use `.env.example`.
-* **Build**:
-
-  * Server: `pnpm build` → `dist/`
-  * Web: `pnpm build` → `dist/` (static)
-* **Deployment**:
-
-  * Backend: any Node host / Docker.
-  * Frontend: static hosting (Vercel/Netlify/S3 + CDN).
-  * Set `VITE_API_URL` to your backend URL.
-
----
-
-If you want me to tailor the README to your exact repo structure (names, scripts, any special middleware), just paste the GitHub link and I’ll align the commands/paths and add a `.env.example` plus final screenshots section.
