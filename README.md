@@ -77,42 +77,7 @@ Minimal full-stack starter with:
 
 ---
 
-## Quick Start (Docker or Local)
-
-### Option A – Use Docker for Postgres (recommended)
-
-From project root:
-
-```bash
-# Create a simple docker-compose.yml if you don't have one:
-cat > docker-compose.yml <<'YAML'
-version: "3.8"
-services:
-  db:
-    image: postgres:16
-    restart: unless-stopped
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 123
-      POSTGRES_DB: nest
-    ports:
-      - "5434:5432"
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-volumes:
-  pgdata:
-YAML
-
-docker compose up -d
-```
-
-Then set `DATABASE_URL` to:
-
-```
-postgresql://postgres:123@localhost:5434/nest?schema=public
-```
-
-### Option B – Use your local Postgres
+## Quick Start (Local PostGre)
 
 * Create a database (e.g. `nest`)
 * Update the URL for your host/port/user/password
